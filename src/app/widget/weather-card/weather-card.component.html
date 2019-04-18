@@ -1,0 +1,12 @@
+<div class="weather-card" *ngIf="hotel">
+  <div class="weather-card__title">{{ hotel.hotel_weather_title }}</div>
+  <div class="weather-card__info">
+    <div class="weather-card__preview">
+      <img [src]="hotel.hotel_weather_icon" alt="{{ hotel.hotel_weather_title }} icon" class="weather-card__icon">
+    </div>
+    <div class="weather-card__temp">{{ hotel.hotel_weather_temperature }}&#176;</div>
+  </div>
+  <div class="weather-card__info">
+    <div class="weather-card__temp weather-card__temp--water">Water {{ hotel.hotel_weather_water }}&#176;</div>
+  </div>
+</div>

@@ -1,0 +1,116 @@
+{
+  "result": [
+    {
+      "city_title": "Dnipro",
+      "city_id": 1,
+      "city_img_url": "http://zelenska.me/projects-img/dnipro/dnipro-01.jpg",
+      "city_hotels": [
+        {
+          "hotel_title": "Bartolomeo",
+          "hotel_id": 1,
+          "hotel_img_url": "https://s-ec.bstatic.com/images/hotel/max1280x900/127/127565620.jpg",
+          "hotel_address": "Naberezhnaya Pobedy 9B, Dnipro, 49094, Ukraine",
+          "hotel_description": "Bartolomeo Best River Resort in the city of Dnepropetrovsk offers 2-storey wooden bungalows apartments directly on the River Dnepr. For your comfort you will find a cable TV and safe in every room. Free WiFi is available throughout the property.",
+          "hotel_phone": "066 012 08 12",
+          "hotel_weather_title": "Sunny",
+          "hotel_weather_icon": "https://cdn3.iconfinder.com/data/icons/weather-ios-11-1/50/Sunny_Clear_Sun_Sunlight_Apple_Weather-512.png",
+          "hotel_weather_temperature": 4,
+          "hotel_weather_water": 22,
+          "hotel_rate": 8.2,
+          "hotel_likes": 658
+        },
+        {
+          "hotel_title": "Tourist Hotel Complex",
+          "hotel_id": 2,
+          "hotel_img_url": "https://t-ec.bstatic.com/xdata/images/hotel/1200x900/131133997.jpg?k=ff4cd7ef4ee068d352ee5f6aa2f4e7180e7be01da10c954301a3b5c4b4219094&o=",
+          "hotel_address": "R. Okipnoi Street 2, Kiev, 02002, Ukraine",
+          "hotel_description": "The Tourist Hotel Complex has classic-style rooms and suites with satellite TV, refrigerator, and desk. Wi-Fi is available in the property free of charge.",
+          "hotel_phone": "066 012 08 12",
+          "hotel_weather_title": "Sunny",
+          "hotel_weather_icon": "https://cdn3.iconfinder.com/data/icons/weather-ios-11-1/50/Sunny_Clear_Sun_Sunlight_Apple_Weather-512.png",
+          "hotel_weather_temperature": 4,
+          "hotel_weather_water": 22,
+          "hotel_rate": 7.8,
+          "hotel_likes": 5636
+        },
+        {
+          "hotel_title": "Dnipro Hotel",
+          "hotel_id": 3,
+          "hotel_img_url": "https://q-cf.bstatic.com/images/hotel/max1280x900/120/120043061.jpg",
+          "hotel_address": "Khreshchatyk Str.1/2, Kiev, 01001, Ukraine",
+          "hotel_description": "This hotel offers accommodations in the historic and business centre of Kiev.",
+          "hotel_phone": "066 012 08 12",
+          "hotel_weather_title": "Sunny",
+          "hotel_weather_icon": "https://cdn3.iconfinder.com/data/icons/weather-ios-11-1/50/Sunny_Clear_Sun_Sunlight_Apple_Weather-512.png",
+          "hotel_weather_temperature": 4,
+          "hotel_weather_water": 22,
+          "hotel_rate": 7.1,
+          "hotel_likes": 3592
+        },
+        {
+          "hotel_title": "Kryva Lypa",
+          "hotel_id": 4,
+          "hotel_img_url": "https://r-cf.bstatic.com/images/hotel/max1280x900/171/171585105.jpg",
+          "hotel_address": "Kryva Lypa Passage 3A, Lviv, 79000, Ukraine",
+          "hotel_description": "Well located in the Lviv City Center district of Lviv, Kryva Lypa is located less than 1 km from The Armenian Cathedral, a 7-minute walk from Zankovetski Drama Theater and 600 m from Lviv State Academic Opera and Ballet Theater.",
+          "hotel_phone": "066 012 08 12",
+          "hotel_weather_title": "Sunny",
+          "hotel_weather_icon": "https://cdn3.iconfinder.com/data/icons/weather-ios-11-1/50/Sunny_Clear_Sun_Sunlight_Apple_Weather-512.png",
+          "hotel_weather_temperature": 4,
+          "hotel_weather_water": 22,
+          "hotel_rate": 9.0,
+          "hotel_likes": 1922
+        },
+        {
+          "hotel_title": "Menorah Hotel",
+          "hotel_id": 5,
+          "hotel_img_url": "https://r-cf.bstatic.com/images/hotel/max1280x900/138/138717467.jpg",
+          "hotel_address": "Sholom-Aleykhema Street 4, Dnipro, 49000, Ukraine",
+          "hotel_description": "Featuring free Wi-Fi and a Kosher restaurant, this design hotel is located in Dnipro city, 6 minutes’ walk from the Most City Business Centre. It offers air-conditioned rooms with a flat-screen TV.",
+          "hotel_phone": "066 012 08 13",
+          "hotel_weather_title": "Cloudy",
+          "hotel_weather_icon": "https://cdn1.iconfinder.com/data/icons/weather-forecast-meteorology-color-1/128/weather-partly-sunny-512.png",
+          "hotel_weather_temperature": 7,
+          "hotel_weather_water": 20,
+          "hotel_rate": 8.8,
+          "hotel_likes": 367
+        }
+      ]
+    },
+    {
+      "city_title": "Kiev",
+      "city_id": 2,
+      "city_img_url": "img.png",
+      "city_hotels": [
+        {
+          "hotel_title": "string",
+          "hotel_id": "number1",
+          "hotel_img_url": "string",
+          "hotel_address": "string",
+          "hotel_description": "string",
+          "hotel_phone": "number",
+          "hotel_weather_title": "string",
+          "hotel_weather_icon": "string",
+          "hotel_weather_temperature": "number",
+          "hotel_weather_water": "number",
+          "hotel_rate": 4,
+          "hotel_likes": 32
+        },
+        {
+          "hotel_title": "string",
+          "hotel_id": "number2",
+          "hotel_img_url": "string",
+          "hotel_address": "string",
+          "hotel_description": "string",
+          "hotel_phone": "number",
+          "hotel_weather_title": "string",
+          "hotel_weather_icon": "string",
+          "hotel_weather_temperature": "number",
+          "hotel_weather_water": "number",
+          "hotel_rate": 4,
+          "hotel_likes": 32
+        }
+      ]
+    }
+  ]
+}

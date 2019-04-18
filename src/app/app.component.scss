@@ -1,0 +1,30 @@
+@import "~src/scss_styles/variables";
+
+.app-widget {
+  &__wrapper {
+
+  }
+  &__title {
+    text-align: center;
+    color: $accent-color-blue;
+  }
+  &__container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  &__main-card {
+    padding: 10px 20px;
+  }
+  &__info-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  &__weather-card, &__hotel-card {
+    padding: 10px 0;
+  }
+}

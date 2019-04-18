@@ -1,0 +1,10 @@
+<div class="hotel-card" *ngIf="hotel">
+  <div class="hotel-card__title">{{ hotel.hotel_title }}</div>
+  <div class="hotel-card__preview">
+    <img [src]="hotel.hotel_img_url" alt="{{ hotel.hotel_title }} image" class="hotel-card__img">
+  </div>
+  <div class="hotel-card__info">
+    <div class="hotel-card__rate">Rate: {{ hotel.hotel_rate }}</div>
+    <div class="hotel-card__likes">Likes: {{ hotel.hotel_likes }}</div>
+  </div>
+</div>

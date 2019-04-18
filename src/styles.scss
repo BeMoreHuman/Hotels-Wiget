@@ -1,0 +1,45 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "scss_styles/variables";
+@import "scss_styles/mixins";
+@import "scss_styles/fonts";
+
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  color: #fff;
+  background: #313144;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+p,
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+// Custom scrollbar
+// width
+::-webkit-scrollbar {
+  width: 6px;
+}
+// Track
+::-webkit-scrollbar-track {
+
+}
+// Handle
+::-webkit-scrollbar-thumb {
+  background: #201c2b;
+  border-radius: 10px;
+  border: 1px solid #4d4d4d;
+}
+// Handle on hover
+::-webkit-scrollbar-thumb:hover {
+  background: #171321;
+}

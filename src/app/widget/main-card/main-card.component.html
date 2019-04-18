@@ -1,0 +1,25 @@
+<div class="main-card">
+  <div class="main-card__preview">
+    <img [src]="city.city_img_url" alt="{{ city.city_title }} image" class="main-card__img">
+  </div>
+  <div class="main-card__title">Hotels</div>
+  <div class="main-card__subtitle">Filter hotels by:</div>
+  <div class="main-card__filters">
+    <div class="main-card__filter" *ngFor="let filter of filters" (click)="filterHotels($event, filter)" [ngClass]="{'main-card__filter--active': filterName === filter}">{{ filter }}</div>
+  </div>
+  <div class="main-card__body">
+    <div class="main-card__header">{{ city.city_title }}</div>
+    <ul class="main-card__hotels">
+      <li class="main-card__hotel hotel" *ngFor="let hotel of city.city_hotels | rateFilter : filterName" (click)="selectHotel(hotel)">
+        <div class="hotel__info">
+          <div class="hotel__title">{{ hotel.hotel_title }}</div>
+          <p class="hotel__desc">{{ hotel.hotel_description }}</p>
+          <div class="hotel__phone">Tel: +38{{ hotel.hotel_phone }}</div>
+        </div>
+        <div class="hotel__preview">
+          <img [src]="hotel.hotel_img_url" alt="{{ hotel.hotel_title }} image" class="hotel__img">
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
