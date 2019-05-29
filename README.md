@@ -1,5 +1,6 @@
 # AngularWidget
 
+Look at the Hotels-Wiget by visit this link: https://bemorehuman.github.io/Hotels-Wiget/
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.2.
 
 ## Development server
